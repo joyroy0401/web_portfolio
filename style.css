@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.name-heighlight{
+color: orange;
+}
+
+.section-one{
+margin: 5%;
+}
+
+.left-side{
+    width: 40%;
+    float: left;
+    display: inline-block;
+   
+}
+
+.right-side img{
+    width: 40%;
+    float: right;
+
+ 
+}
