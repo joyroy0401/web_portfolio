@@ -1,33 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
-h1{
-    font-size: 30px;
-}
-
-.name-heighlight{
+.macc-joy{
 color: orange;
 }
 
-.section-one{
+.left-side{
+  width: 40%;
+  font-family: 'Poppins', sans-serif;
+  float: left;
+  margin: 5%;
+}
+.left-side a{
+color: #000;
+text-decoration: none;
+background-color: orange;
+padding: 5px 20px;
+}
+
+
+.left-img img{
+  width: 40%;
+  margin: 5%;
+}
+
+.right-img{
+float: left;
+position: relative;
+}
+.right-img img{
+  width: 40%;
+}
+
+.right-side{
+width: 40%;
+font-family: 'Poppins', sans-serif;
+position: absolute;
+right: 0;
 margin: 5%;
 }
-
-.left-side{
-    width: 40%;
-    float: left;
-    display: inline-block;
-   
-}
-
-.right-side img{
-    width: 40%;
-    float: right;
-
- 
+.right-side a{
+  color: #000;
+  text-decoration: none;
+  background-color: orange;
+  padding: 5px 20px;
+  margin-bottom: 100px;
 }
